@@ -1,0 +1,98 @@
+/* set the color of the Navbar */
+.navbar-brand {
+    font-size: 2.5vw;
+    padding: 0.5vw;
+    margin-left: 3.5vw;
+    
+}
+/* set the wallpaper */
+body {
+    background-image: url("https://sfwallpaper.com/images/backgrounds-white-7.jpg") ;
+    padding-top: 2vw;
+    margin-top: 2vw;
+    z-index: 1;
+}
+
+/* makes it so that you can see the container, so that there's margin between the content and the edges/nav bar, and so that and so that the container's width is based on screensiz */
+.container {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    margin-top: 6vw;
+    margin-bottom: 2vw;
+}
+
+/* Makes it so that there's space around the heading of each page and sets the color of the heading of each page */
+h1 {
+    padding: 1vw;
+    color: teal;
+}
+
+/* creates space between the items in the form */
+form {
+    padding: 1vw;
+}
+
+/* sepearte code for the portfolio specifically in order to make it more similar to screenshot */
+/* .containerPortfolio {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    margin-top: 2vw;
+} */
+
+/* creates space between the thumbnails in the portfolio */
+.row {
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-right: 1vw;
+}
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.sampleWork {
+    margin: auto;
+    padding: 1vw;
+    overflow-wrap: break-word;
+}
+
+.screenshots {
+    width: 60%;
+}
+
+.contactInfo {
+    margin: auto;
+    padding: 1vw;
+}
+
+.sampleResume {
+    width: 90vw;
+    margin: 2vw; 
+}
+
+#footer {
+    padding-bottom: 2vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 18vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .sampleWork {
+        width: 90%;
+    }
+    .contactInfo {
+        width: 90%;
+    }
+}
+
