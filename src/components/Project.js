@@ -7,19 +7,7 @@ function Project(props) {
         <div>
             <main className="container">
 
-                <section className="row">
-                    <section className="col-md-12">
-                        <h1>Project</h1>
-                    </section>
-                </section>
 
-                <hr></hr>
-
-                <section className="sampleResume">
-                    <p>Resume: <a href={Image} target="_blank">Click here to download</a></p>
-                </section>
-
-                <hr></hr><br></br>
 
                 <section className="sampleWork">
 

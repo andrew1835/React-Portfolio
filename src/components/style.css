@@ -74,6 +74,7 @@ form {
 .sampleResume {
     width: 90vw;
     margin: 2vw; 
+    padding-bottom: 2vw;
 }
 
 #footer {

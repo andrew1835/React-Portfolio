@@ -5,11 +5,26 @@ import Footer from "../Footer"
 import Memory from "../Images/MemoryBank.jpg"
 import Home from "../Images/HomeScreen.jpg"
 import Password from "../Images/Password_Gen.jpg"
+import Image from "../Images/Andrew_Coding_Resume.pdf"
 // import "../Images"
 
 function Portfolio() {
     return (
         <div>
+            <main className="container">
+
+                <section className="row">
+                    <section className="col-md-12">
+                        <h1>Projects</h1>
+                    </section>
+                </section>
+
+                <hr></hr>
+
+                <section className="sampleResume">
+                    <p>Resume: <a href={Image} target="_blank">Click here to download</a></p>
+                </section>
+            </main>
             <Project
                 // Not sure if you need to put curly brackets around the stuff after description
                 title="MemoryBank"
