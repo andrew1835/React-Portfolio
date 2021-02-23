@@ -1,42 +1,42 @@
-import React, { Component } from "react";
-import Header from "./Header";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
+// import React, { Component } from "react";
+// import Header from "./Header";
+// import About from "./pages/About";
+// import Contact from "./pages/Contact";
+// import Portfolio from "./pages/Portfolio";
 
-class PortfolioContainer extends Component {
-    state = {
-        currentPage: "About"
-    };
-
-
-    pageChange() {
-        if (this.state.currentPage === "About") {
-            return <About />
-        } else if (this.state.currentPage === "Contact") {
-            return <Contact />
-        } else if (this.state.currentPage === "Portfolio") {
-            return <Portfolio />
-        }
-    }
+// class PortfolioContainer extends Component {
+//     state = {
+//         currentPage: "About"
+//     };
 
 
-    handlePageChange = page => {
-        this.setState({ currentPage: page });
-    };
+//     pageChange() {
+//         if (this.state.currentPage === "About") {
+//             return <About />
+//         } else if (this.state.currentPage === "Contact") {
+//             return <Contact />
+//         } else if (this.state.currentPage === "Portfolio") {
+//             return <Portfolio />
+//         }
+//     }
 
 
-    render() {
-        return (
-            <div>
-                <Header
-                    currentPage={this.state.currentPage}
-                    handlePageChange={this.handlePageChange}
-                />
-                {this.pageChange()}
-            </div>
-        );
-    }
-}
+//     handlePageChange = page => {
+//         this.setState({ currentPage: page });
+//     };
 
-export default PortfolioContainer;
+
+//     render() {
+//         return (
+//             <div>
+//                 <Header
+//                     currentPage={this.state.currentPage}
+//                     handlePageChange={this.handlePageChange}
+//                 />
+//                 {this.pageChange()}
+//             </div>
+//         );
+//     }
+// }
+
+// export default PortfolioContainer;
