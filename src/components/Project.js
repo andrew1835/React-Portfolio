@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css"
-import Image from "./Images/Andrew_Coding_Resume.pdf"
+
 
 function Project(props) {
     return (
