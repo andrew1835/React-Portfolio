@@ -13,9 +13,9 @@ The assignment was really valuable. While it's definitely possible to create an 
 # Links
 Link to GitHub repo: https://github.com/andrew1835/React-Portfolio
 <br>
-Link to deployed application: https://andrewsuserdirectory.herokuapp.com/
+Link to deployed application: https://andrewreactportfolio.herokuapp.com/
 
 # Screenshot
 This screenshot shows what the home page of the portfolio looks like
 
-<img src = "./Images/user.jpg" alt = "Home page">
+<img src = "./src/components/Images/ReactApp.jpg" alt = "Home page">
