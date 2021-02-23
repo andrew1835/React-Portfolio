@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import Image from "./Images/Andrew_Coding_Resume.pdf"
 
 function Project(props) {
     return (
@@ -15,7 +16,7 @@ function Project(props) {
                 <hr></hr>
 
                 <section className="sampleResume">
-                    <p>Resume: <a href="Assets/Images/Andrew_Coding_Resume.pdf" target="_blank">Click here to download</a></p>
+                    <p>Resume: <a href={Image} target="_blank">Click here to download</a></p>
                 </section>
 
                 <hr></hr><br></br>

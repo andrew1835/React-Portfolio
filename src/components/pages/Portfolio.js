@@ -2,6 +2,9 @@ import React from "react";
 import "../style.css"
 import Project from "../Project"
 import Footer from "../Footer"
+import Memory from "../Images/MemoryBank.jpg"
+import Home from "../Images/HomeScreen.jpg"
+import Password from "../Images/Password_Gen.jpg"
 // import "../Images"
 
 function Portfolio() {
@@ -18,9 +21,8 @@ function Portfolio() {
                 this application."
                 siteLink="https://memorybank2021.herokuapp.com/"
                 gitHub="https://github.com/andrew1835/code-refractor"
-                // src=""
+                src={Memory}
                 imageDescription="Memorybank Home"
-
             />
             <Project
                 // Not sure if you need to put curly brackets around the stuff after description
@@ -30,7 +32,7 @@ function Portfolio() {
                 event location."
                 siteLink="https://andrew1835.github.io/In_The_Moment/"
                 gitHub="https://github.com/andrew1835/In_The_Moment"
-                // src=""
+                src={Home}
                 imageDescription="In The Moment screenshot"
             />
             <Project
@@ -40,7 +42,7 @@ function Portfolio() {
                 a few minutes to create a password generator now, at the time it took me many hours to complete this assignment."
                 siteLink="https://andrew1835.github.io/Password_Generator/"
                 gitHub="https://github.com/andrew1835/Password_Generator"
-                // src=""
+                src={Password}
                 imageDescription="Password Generator screenshot"
             />
             <Footer />

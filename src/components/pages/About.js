@@ -1,5 +1,6 @@
 import React from "react";
 import "../style.css"
+import Image from "../Images/Andrew_Coding_Resume.pdf"
 
 function About() {
     return (
@@ -55,7 +56,7 @@ function About() {
                             to any company that will hire me.
         </p>
                         <br></br>
-                        <p>Resume: <a href="Assets/Images/Andrew_Coding_Resume.pdf" target="_blank">Click here to download</a>
+                        <p>Resume: <a href={Image} target="_blank">Click here to download</a>
                         </p>
                     </section>
                 </section>
