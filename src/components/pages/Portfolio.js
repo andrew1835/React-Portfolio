@@ -6,6 +6,7 @@ import Memory from "../Images/MemoryBank.jpg"
 import Home from "../Images/HomeScreen.jpg"
 import Password from "../Images/Password_Gen.jpg"
 import Image from "../Images/Andrew_Coding_Resume.pdf"
+import Google from "../Images/GoogleLibrary.jpg"
 // import "../Images"
 
 function Portfolio() {
@@ -52,6 +53,15 @@ function Portfolio() {
             />
             <Project
                 // Not sure if you need to put curly brackets around the stuff after description
+                title="React Google Library"
+                description="This (nearly) fullstack MERN application built in React allows you to search Google's Library API for books. Soon, it will also allow the user to save books onto the 'Saved' page by saving the individual books to a database."
+                siteLink="https://andrew-google-library-react.herokuapp.com/"
+                gitHub="https://github.com/andrew1835/React-Google-Library-Search"
+                src={Google}
+                imageDescription="Google Library results"
+            />
+            <Project
+                // Not sure if you need to put curly brackets around the stuff after description
                 title="Password Generator"
                 description="This was the first truly difficult homework assignment for the coding bootcamp. Although it would only take me
                 a few minutes to create a password generator now, at the time it took me many hours to complete this assignment."
@@ -60,6 +70,7 @@ function Portfolio() {
                 src={Password}
                 imageDescription="Password Generator screenshot"
             />
+
             <Footer />
         </div>
     );
