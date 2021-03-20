@@ -24,8 +24,7 @@ function About() {
                     </section>
                     <section className="col-md-8">
 
-                        <p>Hi, my name is Andrew Anthony and I'm a full-stack Web Development student at the University of
-                        Washington's coding bootcamp.
+                        <p>Hi, my name is Andrew Anthony and I'm a front-end web developer with a certificate in full-stack developement from the University of Washington's coding bootcamp.
             <br></br>
                                     I graduated from the University of Washington in June of 2020 with a degree in Marketing, however,
                                     my plan was to pursue a career in screenwriting and acting post graduation. In fact, during the fall
